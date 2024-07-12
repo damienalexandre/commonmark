@@ -153,4 +153,4 @@ The `BlockStartParserInterface::tryStart()` and `BlockContinueParserInterface::t
 
 In addition to creating a block parser, you may also want to have it return a custom "block element" - this is a class that extends from `AbstractBlock` and represents that particular block within the AST.
 
-If your block contains literal strings/text within the block (and not as part of a child block), you should have your custom block type also `implement StringContainerInterface`.
+If your block contains literal strings/text within the block (and not as part of a child block), you should have your custom block type also `implements StringContainerInterface`.
